@@ -1,0 +1,25 @@
+{
+  "name": "boca/console",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Ghadeer Abd Alhameed",
+      "email": "gh.abd.alhamedd.97@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.4.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "boca\\console\\core\\": "core",
+      "boca\\console\\core\\settings\\": "core/settings"
+    }
+  },
+  "files": [
+    "init.php"
+  ]
+}
